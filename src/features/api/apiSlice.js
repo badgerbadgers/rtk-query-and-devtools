@@ -5,7 +5,6 @@ export const apiSlice = createApi({
   baseQuery: fetchBaseQuery({
     baseUrl: "http://localhost:3500",
   }),
-
   //need to invalidate the previous cache to update
   tagTypes: ["Todos"],
   endpoints: (builder) => ({
