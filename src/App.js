@@ -1,12 +1,7 @@
-import logo from "./logo.svg"
-import "./App.css"
+import TodoList from "./features/todos/TodoList"
 
-function App() {
-  return (
-    <div className='App'>
-      <p>test</p>
-    </div>
-  )
+import React from "react"
+
+export default function App() {
+  return <TodoList />
 }
-
-export default App
